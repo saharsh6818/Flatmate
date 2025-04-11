@@ -16,26 +16,32 @@ Follow the steps below to run the entire project on your local machine:
 powershell
 
 cd frontend
-npm i          # Only for the first-time setup
+
+npm i       # Only for the first-time setup
+
 npm run dev
+
+
 
 This will start the frontend on the default local development server (usually http://localhost:5173 or http://localhost:3000 depending on your setup).
 
 2. Start the Backend
 Open a new PowerShell terminal, then run:
 
-powershell
 
 
 cd backend
+
 npm run start
+
 
 Make sure any required .env files or environment variables are configured.
 
-3. Start the Chatbot
+3. Start the Chatbot ( it takes some time )
 Again, open another PowerShell terminal, then run:
 
 cd chatbot
+
 python app.py
 
 Ensure all Python dependencies are installed (pip install -r requirements.txt) if running for the first time.
